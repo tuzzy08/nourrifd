@@ -39,26 +39,28 @@ export default function Home() {
 
 				<link rel='stylesheet' href='assets/css/responsive.css' />
 				<link rel='icon' href='/favicon.ico' />
-				<script src='assets/js/jquery-3.6.0.js' />
-
-				<script src='assets/js/vendor/modernizr-3.6.0.min.js' />
-				<script src='assets/js/vendor/jquery-1.12.4.min.js' />
-
-				<script src='assets/js/bootstrap.min.js' />
-				<script src='assets/js/popper.min.js' />
-
-				<script src='assets/js/wow.js' />
-
-				<script src='assets/js/jquery.counterup.min.js' />
-				<script src='assets/js/waypoints.min.js' />
-				<script src='assets/js/TweenMax.min.js' />
-
-				<script src='assets/js/slick.min.js' />
-
-				<script src='assets/js/jquery.magnific-popup.min.js' />
-
-				<script src='assets/js/main.js' />
 			</Head>
+			<>
+				<Script src='assets/js/jquery-3.6.0.js'></Script>
+
+				<Script src='assets/js/vendor/modernizr-3.6.0.min.js'></Script>
+				<Script src='assets/js/vendor/jquery-1.12.4.min.js'></Script>
+
+				<Script src='assets/js/bootstrap.min.js'></Script>
+				<Script src='assets/js/popper.min.js'></Script>
+
+				<Script src='assets/js/wow.js'></Script>
+
+				<Script src='assets/js/jquery.counterup.min.js'></Script>
+				<Script src='assets/js/waypoints.min.js'></Script>
+				<Script src='assets/js/TweenMax.min.js'></Script>
+
+				<Script src='assets/js/slick.min.js'></Script>
+
+				<Script src='assets/js/jquery.magnific-popup.min.js'></Script>
+
+				<Script src='assets/js/main.js'></Script>
+			</>
 
 			<body>
 				<div id='preloader-wrap'>
@@ -194,7 +196,7 @@ export default function Home() {
 										{' '}
 										Our focus is making your meals as conveninent and delightful
 										as can be. We manage the hassles so you can focus on what
-										matters most-"enjoying your meal".
+										matters most-&quot;enjoying your meal&quot;.
 									</p>
 									<ul>
 										<li>
@@ -567,14 +569,6 @@ export default function Home() {
 									</div>
 								</div>
 							</div>
-							<div className='col-lg-12'>
-								<div className='faq-text text-center pt-40'>
-									<p>
-										Can't find an answer?{' '}
-										<a href='mailto:support@nourrifd.com'>Email us</a>
-									</p>
-								</div>
-							</div>
 						</div>
 					</div>
 				</section>
@@ -622,10 +616,6 @@ export default function Home() {
 											<img src='assets/images/nourri.png' alt='' />
 										</a>
 									</div>
-									<a href='#'>
-										Read More <i className='fal fa-arrow-right'></i>
-									</a>{' '}
-									-->
 									<div className='social mt-30'>
 										<ul>
 											<li>
