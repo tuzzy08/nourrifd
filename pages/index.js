@@ -8,7 +8,7 @@ export default function Home() {
 		<div>
 			<Head>
 				<meta charset='utf-8' />
-				<meta http-equiv='x-ua-compatible' content='ie=edge' />
+				<meta httpEquiv='x-ua-compatible' content='ie=edge' />
 				<meta name='description' content='' />
 				<meta
 					name='viewport'
