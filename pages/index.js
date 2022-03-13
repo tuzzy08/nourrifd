@@ -179,7 +179,9 @@ export default function Home() {
 												<a href='#contact'>Contact</a>
 											</li>
 											<li>
-												<a href='/policy'>Privacy</a>
+												<Link href="/policy">
+													<a>Privacy policy</a>
+												</Link>
 											</li>
 										</ul>
 									</div>
