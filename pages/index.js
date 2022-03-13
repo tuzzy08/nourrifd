@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link'
 import Script from 'next/script';
 import styles from '../styles/Home.module.css';
 
@@ -99,7 +100,9 @@ export default function Home() {
 												<a href='#contact'>Contact</a>
 											</li>
 											<li className='menu-item-has-children active'>
-												<a href='/policy'>Privacy policy</a>
+												<Link href="/policy">
+													<a>Privacy policy</a>
+												</Link>
 											</li>
 										</ul>
 									</div>
@@ -650,7 +653,9 @@ export default function Home() {
 											<a href='#about'>About</a>
 										</li>
 										<li>
-											<a href='/policy'>Privacy policy</a>
+											<Link href="/policy">
+													<a>Privacy policy</a>
+												</Link>
 										</li>
 										<li>
 											<a href='#faq'>Faqs</a>
