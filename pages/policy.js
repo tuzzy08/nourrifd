@@ -31,6 +31,44 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<body>
+				<header className='appie-header-area appie-sticky'>
+					<div className='container'>
+						<div className='header-nav-box'>
+							<div className='row align-items-center'>
+								<div className='col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1'>
+									<div className='appie-logo-box'>
+										<a href='#'>
+											<img
+												src='assets/images/custom/NOURRI 1920 X 1080.png'
+												alt=''
+											/>
+										</a>
+									</div>
+								</div>
+								<div className='col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2'>
+									<div className='appie-header-main-menu'>
+										<ul>
+											<li>
+												<a href='#'>Home</a>
+											</li>
+											<li>
+												<a href='#about'>About</a>
+											</li>
+											<li>
+												<a href='#contact'>Contact</a>
+											</li>
+											<li>
+												<Link href="/policy">
+													<a>Privacy policy</a>
+												</Link>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
 				<br />
 				<br />
 				<br />
