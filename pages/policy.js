@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link'
 
 export default function Home() {
 	return (
@@ -49,19 +50,12 @@ export default function Home() {
 									<div className='appie-header-main-menu'>
 										<ul>
 											<li>
-												<a href='#'>Home</a>
-											</li>
-											<li>
-												<a href='#about'>About</a>
-											</li>
-											<li>
-												<a href='#contact'>Contact</a>
-											</li>
-											<li>
-												<Link href="/policy">
-													<a>Privacy policy</a>
+												<Link href="/">
+													<a>Home</a>
 												</Link>
-											</li>
+											</li>									
+											
+											
 										</ul>
 									</div>
 								</div>
