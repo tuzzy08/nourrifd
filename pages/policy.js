@@ -34,9 +34,9 @@ export default function Home() {
 				<br />
 				<br />
 				<br />
-				<section id='about' class='about'>
-					<div class='container'>
-						<div class='row content'>
+				<section id='about' className='about'>
+					<div className='container'>
+						<div className='row content'>
 							<br />
 							<br />
 							<br />
@@ -81,22 +81,22 @@ export default function Home() {
 									We want to inform you that whenever you visit our Service, we
 									collect information that your browser sends to us that is
 									called Log Data. This Log Data may include information such as
-									your computer’s Internet Protocol ("IP") address, browser
-									version, pages of our Service that you visit, the time and
-									date of your visit, the time spent on those pages, and other
-									statistics.
+									your computer’s Internet Protocol (&quot;"IP"&quot;) address,
+									browser version, pages of our Service that you visit, the time
+									and date of your visit, the time spent on those pages, and
+									other statistics.
 								</p>
 								<p>
 									<h4>Cookies</h4>
 									Cookies are files with small amount of data that is commonly
 									used as anonymous unique identifier. These are sent to your
 									browser from the website that you visit and are stored on your
-									computer’s hard drive. Our website uses these "cookies" to
-									collect information and to improve our Service. You have the
-									option to either accept or refuse these cookies, and know when
-									a cookie is being sent to your computer. If you choose to
-									refuse our cookies, you may not be able to use some portions
-									of our Service.
+									computer’s hard drive. Our website uses these
+									&quot;"cookies"&quot; to collect information and to improve
+									our Service. You have the option to either accept or refuse
+									these cookies, and know when a cookie is being sent to your
+									computer. If you choose to refuse our cookies, you may not be
+									able to use some portions of our Service.
 								</p>
 								<p>
 									<h4>Service Providers</h4>
@@ -132,42 +132,42 @@ export default function Home() {
 				<br />
 				<br />
 				<br />
-				<section className='appie-footer-area' id='contact'>
-					<div className='container'>
-						<div className='row'>
-							<div className='col-lg-4 col-md-6'>
-								<div className='footer-about-widget'>
-									<div className='logo'>
+				<section classNameName='appie-footer-area' id='contact'>
+					<div classNameName='container'>
+						<div classNameName='row'>
+							<div classNameName='col-lg-4 col-md-6'>
+								<div classNameName='footer-about-widget'>
+									<div classNameName='logo'>
 										<a href='#'>
 											<img src='assets/images/nourri.png' alt='' />
 										</a>
 									</div>
-									<div className='social mt-30'>
+									<div classNameName='social mt-30'>
 										<ul>
 											<li>
 												<a href='https://facebook.com/nourrifd'>
-													<i className='fab fa-facebook-f'></i>
+													<i classNameName='fab fa-facebook-f'></i>
 												</a>
 											</li>
 											<li>
 												<a href='https://twitter.com/nourrifd'>
-													<i className='fab fa-twitter'></i>
+													<i classNameName='fab fa-twitter'></i>
 												</a>
 											</li>
 											<li>
 												<a href='https://instagram.com/nourrifd'>
-													<i className='fab fa-instagram'></i>
+													<i classNameName='fab fa-instagram'></i>
 												</a>
 											</li>
 										</ul>
 									</div>
 								</div>
 							</div>
-							<div className='col-lg-2 col-md-6'>
-								<div className='footer-navigation'></div>
+							<div classNameName='col-lg-2 col-md-6'>
+								<div classNameName='footer-navigation'></div>
 							</div>
-							<div className='col-lg-3 col-md-6'>
-								<div className='footer-navigation'>
+							<div classNameName='col-lg-3 col-md-6'>
+								<div classNameName='footer-navigation'>
 									<ul>
 										<li>
 											<a href='#about'>About</a>
@@ -181,23 +181,24 @@ export default function Home() {
 									</ul>
 								</div>
 							</div>
-							<div className='col-lg-3 col-md-6'>
-								<div className='footer-widget-info'>
-									<h4 className='title'>Get In Touch</h4>
+							<div classNameName='col-lg-3 col-md-6'>
+								<div classNameName='footer-widget-info'>
+									<h4 classNameName='title'>Get In Touch</h4>
 									<ul>
 										<li>
 											<a href='#'>
-												<i className='fal fa-envelope'></i> support@nourrifd.com
+												<i classNameName='fal fa-envelope'></i>{' '}
+												support@nourrifd.com
 											</a>
 										</li>
 										<li>
 											<a href='#'>
-												<i className='fal fa-phone'></i> 08179618760
+												<i classNameName='fal fa-phone'></i> 08179618760
 											</a>
 										</li>
 										<li>
 											<a href='#'>
-												<i className='fal fa-map-marker-alt'></i> #20 Igbodo
+												<i classNameName='fal fa-map-marker-alt'></i> #20 Igbodo
 												street, Old GRA, PH.
 											</a>
 										</li>
@@ -205,25 +206,25 @@ export default function Home() {
 								</div>
 							</div>
 						</div>
-						<div className='row'>
-							<div className='col-lg-12'>
-								<div className='footer-copyright d-flex align-items-center justify-content-between pt-35'>
-									<div className='apps-download-btn'>
+						<div classNameName='row'>
+							<div classNameName='col-lg-12'>
+								<div classNameName='footer-copyright d-flex align-items-center justify-content-between pt-35'>
+									<div classNameName='apps-download-btn'>
 										<ul>
 											<li>
 												<a href='#'>
-													<i className='fab fa-apple'></i> Download for iOS
+													<i classNameName='fab fa-apple'></i> Download for iOS
 												</a>
 											</li>
 											<li>
-												<a className='item-2' href='#'>
-													<i className='fab fa-google-play'></i> Download for
-													Android
+												<a classNameName='item-2' href='#'>
+													<i classNameName='fab fa-google-play'></i> Download
+													for Android
 												</a>
 											</li>
 										</ul>
 									</div>
-									<div className='copyright-text'>
+									<div classNameName='copyright-text'>
 										<p>Copyright © 2021 Appie. All rights reserved.</p>
 									</div>
 								</div>
