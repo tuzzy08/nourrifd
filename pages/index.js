@@ -98,6 +98,9 @@ export default function Home() {
 											<li className='menu-item-has-children active'>
 												<a href='#contact'>Contact</a>
 											</li>
+											<li className='menu-item-has-children active'>
+												<a href='/policy'>Privacy policy</a>
+											</li>
 										</ul>
 									</div>
 									<div className='offcanvas-social'>
@@ -173,7 +176,7 @@ export default function Home() {
 												<a href='#contact'>Contact</a>
 											</li>
 											<li>
-												<a href='/policy.html'>Privacy</a>
+												<a href='/policy'>Privacy</a>
 											</li>
 										</ul>
 									</div>
@@ -647,7 +650,7 @@ export default function Home() {
 											<a href='#about'>About</a>
 										</li>
 										<li>
-											<a href='/policy.html'>Privacy policy</a>
+											<a href='/policy'>Privacy policy</a>
 										</li>
 										<li>
 											<a href='#faq'>Faqs</a>
